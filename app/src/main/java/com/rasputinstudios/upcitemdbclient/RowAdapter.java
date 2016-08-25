@@ -12,6 +12,7 @@ import java.util.ArrayList;
 /**
  * Created by mafia on 8/24/2016.
  */
+
 public class RowAdapter extends ArrayAdapter<ProductItem> {
 
     public RowAdapter(Context context, ArrayList<ProductItem> values){
