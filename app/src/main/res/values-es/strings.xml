@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cliente de UPCItemDB</string>
+    <string name="welcome_Welcome">Bienvenido</string>
+    <string name="welcome_Greeting">¿Qué producto estás buscando?</string>
+    <string name="welcome_EnterNameUPC">Escriba nombre del producto o UPC:</string>
+    <string name="welcome_Search">Buscar</string>
+    <string name="welcome_Or">O</string>
+    <string name="welcome_Scan">Digitalizar la UPC</string>
+    <string name="welcome_PoweredBy">Con tecnología de UPCItemDB y ZXing</string>
+    <string name="error_Empty">No Especificado</string>
+    <string name="error_NoConnection">No hay conexión, inténtelo de nuevo más tarde.</string>
+    <string name="error_NoItems">No hay artículos en lista</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Клиент UPCItemDB</string>
+    <string name="welcome_EnterNameUPC">Введите имя продукта или UPC:</string>
+    <string name="welcome_Greeting">Какой продукт вам найти?</string>
+    <string name="welcome_Or">ИЛИ</string>
+    <string name="welcome_PoweredBy">Основано на UPCItemDB и ZXing</string>
+    <string name="welcome_Scan">Сканировать UPC</string>
+    <string name="welcome_Search">Поиск</string>
+    <string name="welcome_Welcome">Здрасте!</string>
+    <string name="error_Empty">Не Найдено</string>
+    <string name="error_NoConnection">Нет соединения с сервером, попробуйте позже.</string>
+    <string name="error_NoItems">Нет элементов в списке</string>
+</resources>

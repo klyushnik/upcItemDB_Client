@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UPCItemDB Client</string>
+    <string name="welcome_Welcome">Welcome</string>
+    <string name="welcome_Greeting">Which product are you looking for?</string>
+    <string name="welcome_EnterNameUPC">Enter product name or UPC:</string>
+    <string name="welcome_Search">Search</string>
+    <string name="welcome_Or">OR</string>
+    <string name="welcome_Scan">Scan UPC</string>
+    <string name="welcome_PoweredBy">Powered by UPCItemDB and ZXing</string>
+    <string name="core_Search" translatable="false">https://api.upcitemdb.com/prod/trial/search?s=</string>
+    <string name="core_Lookup" translatable="false">https://api.upcitemdb.com/prod/trial/lookup?s=</string>
+    <string name="error_Empty">None Specified</string>
+    <string name="error_NoConnection">No connection. Try again later.</string>
+    <string name="error_NoItems">No items in the list</string>
+</resources>
