@@ -1,5 +1,6 @@
 package com.rasputinstudios.upcitemdbclient;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doSearch(View view) {
-        String s = searchText.getText().toString().trim();
+        /*String s = searchText.getText().toString().trim();
         String query;
         if (s.length() == 0) return;
         if (s.matches("\\d+") && (s.length() == 12 || s.length() == 13)) {
@@ -30,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             query = getApplicationContext().getString(R.string.core_Search) + s;
-        }
+            } */
+
+        Intent intent = new Intent(this, ResultContainerActivity.class);
+        startActivity(intent);
+
+
     }
 }

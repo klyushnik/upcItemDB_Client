@@ -9,6 +9,8 @@ public class ProductItem {
     private String[] ProductImages;
     private String[][][] VendorUrlPrice;
 
+
+
     public ProductItem(String productName, String productDescription, String UPC, String EAN, String[] productImages, String[][][] vendorUrlPrice){
         setProductName(productName);
         setProductDescription(productDescription);
