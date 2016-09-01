@@ -2,28 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="10"
     android:minHeight="25dp"
-    android:minWidth="25dp">
+    android:minWidth="25dp"
+    android:id="@+id/resultRootLayout">
 
 
     <ImageView
-        android:layout_width="0dp"
+        android:layout_width="125dp"
         android:layout_height="125dp"
         android:id="@+id/resultPreviewImageView"
         android:layout_gravity="top|center_vertical"
-        android:layout_weight="3"
         android:clickable="false"
-        android:scaleType="fitStart"
+        android:scaleType="centerCrop"
         android:src="@drawable/placeholder"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp" />
+        android:layout_marginTop="5dp"
+        android:padding="2px"
+        android:background="@color/colorText" />
 
     <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="125dp"
-        android:layout_weight="7"
-        android:layout_marginTop="5dp">
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp">
 
         <TextView
             android:layout_width="match_parent"

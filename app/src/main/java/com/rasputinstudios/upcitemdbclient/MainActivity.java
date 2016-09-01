@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.zxing.client.android.*;
 
 public class MainActivity extends AppCompatActivity {
     EditText searchText;
@@ -38,4 +41,26 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void scan(View view) {
+        Intent intent = new Intent(getApplicationContext(), CaptureActivity.class);
+        intent.setAction("com.google.zxing.client.android.SCAN");
+        intent.putExtra("SAVE_HISTORY", false);
+        startActivityForResult(intent, 0);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 0){
+            if (resultCode == RESULT_OK) {
+                String contents = data.getStringExtra("SCAN_RESULT");
+                searchText.setText(contents);
+            }
+            else if (resultCode == RESULT_CANCELED) {
+                Toast.makeText(this, getApplicationContext().getString(R.string.error_Empty), Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
 }

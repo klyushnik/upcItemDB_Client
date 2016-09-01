@@ -39,6 +39,10 @@ public class ResultContainerActivity extends AppCompatActivity {
             jsonArray = jsonObject.getJSONArray("items");
             for (int i = 0; i < jsonArray.length(); i++){
                 JSONObject obj = jsonArray.getJSONObject(i);
+
+                //TODO: Get the "offers" array from obj and set it up the same way as "items" array
+                //TODO: Rewrite ProductItem to get rid of vendorUrlPrice because fuck navigating through a 3d array
+
                 String name = obj.getString("title");
                 String description = obj.getString("description");
                 String upc = obj.getString("upc");

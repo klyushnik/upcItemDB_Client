@@ -17,5 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/resultListView"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:dividerHeight="0dp"
+        android:divider="#00ffffff" />
 </LinearLayout>
