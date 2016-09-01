@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\prog\\Android\\upcItemDB_Client\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\history.xml",
+        "source": "E:\\prog\\Android\\upcItemDB_Client\\zxing\\build\\intermediates\\bundles\\debug\\res\\menu\\history.xml"
+    },
+    {
+        "merged": "E:\\prog\\Android\\upcItemDB_Client\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\capture.xml",
+        "source": "E:\\prog\\Android\\upcItemDB_Client\\zxing\\build\\intermediates\\bundles\\debug\\res\\menu\\capture.xml"
+    },
+    {
+        "merged": "E:\\prog\\Android\\upcItemDB_Client\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\encode.xml",
+        "source": "E:\\prog\\Android\\upcItemDB_Client\\zxing\\build\\intermediates\\bundles\\debug\\res\\menu\\encode.xml"
+    }
+]
